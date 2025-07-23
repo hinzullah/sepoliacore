@@ -1,0 +1,15 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+test = "test"
+gas_price = 470000000000  # or "2gwei" as a string
+evm_version = "shanghai"
+solc_version = "0.8.30"
+
+
+
+
+[rpc_endpoints]
+sepolia = "${SEPOLIA_URL_KEY}"
+coredao = "${COREDAO_URL_KEY}"
